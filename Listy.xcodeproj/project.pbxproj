@@ -14,6 +14,7 @@
 		B53651B523450B3A00DEB55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53651B423450B3A00DEB55E /* Assets.xcassets */; };
 		B53651B823450B3A00DEB55E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53651B623450B3A00DEB55E /* LaunchScreen.storyboard */; };
 		B53651C22345102200DEB55E /* ParallaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53651C12345102200DEB55E /* ParallaxCell.swift */; };
+		B53651C4234512A900DEB55E /* Images+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53651C3234512A900DEB55E /* Images+Names.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B53651B723450B3A00DEB55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B53651B923450B3A00DEB55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B53651C12345102200DEB55E /* ParallaxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCell.swift; sourceTree = "<group>"; };
+		B53651C3234512A900DEB55E /* Images+Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Images+Names.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				B53651B423450B3A00DEB55E /* Assets.xcassets */,
 				B53651B623450B3A00DEB55E /* LaunchScreen.storyboard */,
 				B53651B923450B3A00DEB55E /* Info.plist */,
+				B53651C3234512A900DEB55E /* Images+Names.swift */,
 			);
 			path = Listy;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				B53651B023450B3900DEB55E /* ListTableViewController.swift in Sources */,
 				B53651AC23450B3900DEB55E /* AppDelegate.swift in Sources */,
 				B53651C22345102200DEB55E /* ParallaxCell.swift in Sources */,
+				B53651C4234512A900DEB55E /* Images+Names.swift in Sources */,
 				B53651AE23450B3900DEB55E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
