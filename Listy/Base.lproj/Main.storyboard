@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="HoE-f1-EJP">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ParallaxCell" rowHeight="120" id="HoE-f1-EJP" customClass="ParallaxCell" customModule="Listy" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HoE-f1-EJP" id="39L-lw-uM5">
@@ -44,6 +44,10 @@
                                         <constraint firstItem="gdw-QH-zrp" firstAttribute="leading" secondItem="39L-lw-uM5" secondAttribute="leading" id="wkM-xe-ocG"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="DescriptionLbl" destination="gdw-QH-zrp" id="LSA-zF-Euw"/>
+                                    <outlet property="itemImageView" destination="Qfq-qm-AY4" id="FBt-pw-BUe"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
